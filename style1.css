@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(183, 187, 195);
+}
+h1{
+    font-size: 5rem;
+    
+}
+.tile-image{
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-right: 20px ;
+    display:block 
+    
+}
+.left.card{
+    display:block ;
+    width: 45%;
+    height: 50%;
+    float: left;
+}
+.right.card{
+    display:block ;
+    width: 45%;
+    height: 50%;
+    float: right;
+}
+#spans{
+    color: midnightblue;
+}
+h1{
+    margin-top: 0%;
+}
+@media (max-width:680px){
+    .left.card{
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: justify;
+    }
+    .right.card{
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: justify;
+    }
+    .tile-image{
+        width: 100%;
+    }
+    .main.h1{
+        width: 100%;
+    }
+}
